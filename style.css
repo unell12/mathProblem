@@ -1,0 +1,148 @@
+* {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+header {
+    background-color: salmon;
+    width: 100%;
+    margin: -10px;
+    padding: 30px;
+}
+
+.htitle {
+    font-size: 24px;
+    color: snow;
+    margin: -5px;
+}
+
+.title {
+    margin-left: 100px;
+    color: lightcoral;
+    text-shadow: 0 0 .1em, 0 0 .3em;
+}
+
+.des {
+    margin-left: 100px;
+    color: #666;
+    margin-top: -20px;
+}
+
+#calc {
+    width: 240px;
+    /*height: 320px;*/
+    background-color: snow;
+    border-radius: 10px;
+    border: 1px solid pink;
+    box-shadow: 5px 5px 0px salmon;
+    padding: 10px;
+    position: fixed; right: 40px; bottom: 40px;
+    z-index: 1;
+}
+
+#calc > p {
+    color: #666;
+    margin-top: -4px;
+}
+
+#ans > input {
+    box-shadow: 2px 2px 0px salmon;
+    border: 1px solid #666;
+    border-radius: 12px;
+    width: 400px;
+    height: 60px;
+    outline: 3px snow;
+}
+
+#ans > button {
+    background: salmon;
+    border: 0.1px solid #666;
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    box-shadow: 2px 2px 0px salmon;
+    color: snow;
+    text-shadow: 0px 0px 3px;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    background: salmon;
+    border: 0.1px solid #666;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 2px 0px salmon;
+    color: snow;
+    text-shadow: 0px 0px 3px;
+    font-size: 15px;
+}
+
+main {
+    margin: 100px auto;
+    background-color: snow;
+    border: 1px solid #666;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 550px;
+    box-shadow: 7px 7px 0px salmon;
+}
+
+nav.diff a:nth-of-type(1){
+    background-color: aqua;
+    box-shadow: 5px 5px 10px rgba(74, 255, 255, 0.7);
+}
+
+nav.diff a:nth-of-type(2){
+    background-color: greenyellow;
+    box-shadow: 5px 5px 10px rgba(185, 245, 100, 0.7);
+}
+
+nav.diff a:nth-of-type(3){
+    background-color: yellow;
+    box-shadow: 5px 5px 10px rgba(255, 255, 77, 0.7);
+}
+
+nav.diff a:nth-of-type(4){
+    background-color: crimson;
+    box-shadow: 5px 5px 10px rgba(220, 25, 55, 0.7);
+}
+
+nav.diff a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    opacity: 0.4;
+    filter: saturate(0.7);
+}
+
+#d p {
+    color: #666;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: -26px;
+}
+
+.sel {
+    opacity: 1;
+    filter: saturate(1);
+}
+
+footer {
+    width: 100%;
+    background-color: snow;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+}
